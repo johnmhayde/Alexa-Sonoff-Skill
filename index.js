@@ -26,8 +26,8 @@ const LightSwitchIntentHandler = {
         // connect to ewelink account
         console.log('connecting to account');
         const connection = await new ewelink({
-            email: 'johnmichaelhayde@gmail.com',
-            password: 'johnmichael06',
+            email: 'email@gmail.com',
+            password: 'password',
             region: 'us',
         });
         // connect to sonoff device
